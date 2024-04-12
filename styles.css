@@ -62,7 +62,9 @@ body{
 }
 /* style pour le boutton de filtrage */
 .footer {
-    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
     
 }
 #addTaskBtn{
@@ -83,7 +85,7 @@ input[type="checkbox"]{
 }
 .footer #activeTasksBtn{
     border: 5px solid rgb(229, 255, 0);
-    margin-left: 15vw;
+    margin-left: 100px;
     border-radius: 6px;
     font-family: initial;
 }
