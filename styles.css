@@ -79,6 +79,7 @@ input[type="checkbox"]{
     border: 5px solid chocolate;
     border-radius: 6px;
     font-family: initial;
+    margin-left: 12px;
 }
 .footer #activeTasksBtn{
     border: 5px solid rgb(229, 255, 0);
@@ -88,7 +89,7 @@ input[type="checkbox"]{
 }
 .footer #completedTasksBtn{
     border: 5px solid orange;
-    margin-left: 15vw;
+    margin-left: 200px;
     border-radius: 6px;
     font-family: initial;
 }
